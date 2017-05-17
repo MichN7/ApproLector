@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moraleja2"
+    tools:context="com.example.michelle.myapplication.LoboHistoriaActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="368dp"
+        android:layout_height="214dp"
+        android:gravity="center"
+        android:text="No creas en todo lo que oyes de la gente, asegúrate si es verdad. Mucho más  importante que las cosas que decimos, son los buenos actos que tenemos hacia  las personas. No debemos confiarnos en recibir fácilmente alguna cosa, no sin  antes asegurarnos si verdaderamente lo vamos a recibir para no caer en ilusiones  vanas."
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:text="Moraleja"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+</android.support.constraint.ConstraintLayout>

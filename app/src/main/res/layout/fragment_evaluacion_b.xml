@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluación"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Actividad "
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Redactar una nota periodística"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/textView9"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioGroup"
+            android:layout_alignStart="@+id/radioGroup"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="68dp"
+            android:layout_weight="1"
+            android:text="Aprobado"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No aprobado"
+            android:textSize="22dp"
+            android:layout_below="@+id/radioButton4"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignEnd="@+id/textView7"
+            android:layout_marginTop="18dp" />
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>

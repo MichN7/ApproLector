@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lobo"
+    tools:context="com.example.michelle.myapplication.LoboHistoriaActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="352dp"
+        android:layout_height="137dp"
+        android:text="Creyendo el lobo que aquellas palabras eran una comida segura, se alegró y  espero al lado de la cabaña por muchas horas para que le entreguen la deliciosa  presa. Entrada la noche, la nana estaba arrullando a su niño para que duerma y le  cantaba:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="348dp"
+        android:layout_height="134dp"
+        android:text="Se encontraba caminando en el bosque un pobre lobo hambriento en busca de  comida, hasta que de  pronto, hasta que pasó por una casa donde escuchó a un  niño que lloraba y a su nana que lo consolaba diciendo:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:text="El Lobo sorprendido al escuchar dichas palabras, siguió su camino muy enfadado,  y meditando se dijo:"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="356dp"
+        android:layout_height="55dp"
+        android:text="- &quot;Vaya, en esta vivienda dicen una cosa, y después quieren hacer otra muy  diferente.&quot;"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="356dp"
+        android:layout_height="55dp"
+        android:text="- &quot;No mi Niño, si viene el Lobo, lo mataremos...&quot;"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:text="- &quot;No llores mi Niño porque si no, te llevo donde esta el Lobo&quot;."
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+</android.support.constraint.ConstraintLayout>

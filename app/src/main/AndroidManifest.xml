@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.michelle.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ApproLector"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LevelsActivity" />
+        <activity
+            android:name=".LevelA"
+            android:label="@string/title_activity_level"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LeonHistoriaActivity"
+            android:label="@string/title_activity_leon_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoboHistoriaActivity"
+            android:label="@string/title_activity_lobo_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CisneHistoriaActivity"
+            android:label="@string/title_activity_cisne_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AstroHistoriaActivity"
+            android:label="@string/title_activity_astro_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LevelB"
+            android:label="@string/title_activity_level_b"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ZorraHistoriaActivity"
+            android:label="@string/title_activity_zorra_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OsoHistoriaActivity"
+            android:label="@string/title_activity_oso_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LecheraHistoriaActivity"
+            android:label="@string/title_activity_lechera_historia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RatonHistoriaActivity"
+            android:label="@string/title_activity_raton_historia"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

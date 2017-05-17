@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moraleja3"
+    tools:context="com.example.michelle.myapplication.LoboHistoriaActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="370dp"
+        android:layout_height="136dp"
+        android:gravity="center"
+        android:text="Observa y analiza siempre con cuidado tu alrededor, y así estarás mejor protegido  de los peligros."
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:text="Moraleja"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+</android.support.constraint.ConstraintLayout>

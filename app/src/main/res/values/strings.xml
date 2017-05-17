@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_level_a">LevelAActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_level">LevelA</string>
+    <string name="title_activity_historia_leon">HistoriaLeonActivity</string>
+    <string name="title_activity_leon_historia">LeonHistoriaActivity</string>
+    <string name="title_activity_lobo_historia">LoboHistoriaActivity</string>
+    <string name="title_activity_cisne_historia">CisneHistoriaActivity</string>
+    <string name="title_activity_astro_historia">AstroHistoriaActivity</string>
+    <string name="title_activity_level_b">LevelB</string>
+    <string name="title_activity_zorra_historia">ZorraHistoriaActivity</string>
+    <string name="title_activity_oso_historia">OsoHistoriaActivity</string>
+    <string name="title_activity_lechera_historia">LecheraHistoriaActivity</string>
+    <string name="title_activity_raton_historia">RatonHistoriaActivity</string>
+</resources>
